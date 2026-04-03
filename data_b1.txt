@@ -1,0 +1,5 @@
+Dòng 1: Xin chào
+Dòng 2: Tôi tên Nguyễn Hoàng Anh
+Dòng 3: Lớp DCCNTT.14.2
+Dòng 4: Công nghệ Đông Á
+Dòng 5: Đẳng cấp!
