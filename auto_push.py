@@ -1,6 +1,6 @@
 import subprocess
 
-print("🚀 Đang khởi động quá trình đẩy code tự động...")
+print(" Đang khởi động quá trình đẩy code tự động...")
 
 try:
     print("-> Đang gom các file...")
@@ -13,8 +13,8 @@ try:
     print("-> Đang đẩy lên GitHub...")
     subprocess.run(["git", "push"], check=True)
     
-    print("🎉 Tuyệt vời! Toàn bộ code đã được cập nhật trên GitHub thành công.")
+    print(" Tuyệt vời! Toàn bộ code đã được cập nhật trên GitHub thành công.")
 
 except subprocess.CalledProcessError as e:
-    print("\n⚠️ Có lỗi khi đẩy code (push).")
+    print("\n Có lỗi khi đẩy code (push).")
     print(f"Chi tiết lỗi hệ thống: {e}")
